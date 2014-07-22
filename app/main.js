@@ -15,12 +15,14 @@
     }
 });
 
-define(['durandal/system', 'durandal/app', 'durandal/viewLocator'], function( system, app, viewLocator ) {
+define(['durandal/system', 'durandal/app', 'durandal/viewLocator', 'jquery'], function( system, app, viewLocator, $) {
     //>>excludeStart("build", true);
     system.debug(true);
     //>>excludeEnd("build");
 
     app.title = 'Durandal Samples';
+
+    $(document).on ('click', '.click-test', function(){ alert('click event'); })
 
     //specify which plugins to install and their configuration
     app.configurePlugins({

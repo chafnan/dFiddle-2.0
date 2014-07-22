@@ -3,11 +3,7 @@
   define(['jquery', 'knockout'], function($, ko) {
     var Index;
     Index = (function() {
-      function Index() {
-        $(document).on('click', '.click-test', function() {
-          return alert('click event');
-        });
-      }
+      function Index() {}
 
       return Index;
 

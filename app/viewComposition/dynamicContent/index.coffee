@@ -5,7 +5,5 @@ define ['jquery', 'knockout'],
 
     constructor: ->
 
-      $(document).on 'click', '.click-test', -> alert 'click event'
-
 
   new Index()
