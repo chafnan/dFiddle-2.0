@@ -1,4 +1,4 @@
-define ['jquery', 'knockout'],
+define ['jquery', 'knockout', 'global'],
 ($, ko) ->
 
   class DynamicContent
