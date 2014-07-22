@@ -11,11 +11,20 @@
         'jquery': [
             '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min',
             '../lib/jquery/jquery-1.9.1.min'
+        ],
+        'bootstrap': [
+            '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js',
+            '../lib/bootstrap/js/bootstrap.js'
         ]
+    },
+    shim: {
+        'bootstrap': {
+            deps: ['jquery']
+        }
     }
 });
 
-define(['durandal/system', 'durandal/app', 'durandal/viewLocator', 'jquery'], function( system, app, viewLocator, $) {
+define(['durandal/system', 'durandal/app', 'durandal/viewLocator', 'jquery', 'bootstrap'], function( system, app, viewLocator, $) {
     //>>excludeStart("build", true);
     system.debug(true);
     //>>excludeEnd("build");
