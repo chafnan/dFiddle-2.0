@@ -13,8 +13,8 @@
             '../lib/jquery/jquery-1.9.1.min'
         ],
         'bootstrap': [
-            '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js',
-            '../lib/bootstrap/js/bootstrap.js'
+            '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap',
+            '../lib/bootstrap/js/bootstrap'
         ]
     },
     shim: {
