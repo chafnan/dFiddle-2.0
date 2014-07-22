@@ -32,6 +32,13 @@
               route: 'dFiddle',
               moduleId: 'dFiddle/index',
               nav: true
+          },
+          {
+              type: 'fiddle',
+              title: 'Dynamic Content Event Issue',
+              route: 'dynamicContent',
+              moduleId: 'dynamicContent/index',
+              nav: true
           }
       ])
       .buildNavigationModel();

@@ -1,11 +1,11 @@
-define ['jquery', 'knockout', 'global'],
+define ['jquery', 'knockout'],
 ($, ko) ->
 
-  class DynamicContent
+  class Index
 
     constructor: ->
 
       $(document).on 'click', '.click-test', -> alert 'click event'
 
 
-  new DynamicContent()
+  new Index()
